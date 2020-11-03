@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+    padding: 40px;
+    line-height: 24px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 45px;
+    margin: 25px 0;
+    line-height: 45px;
+}
+h2{
+    font-size: 14px;
+}
+h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+h4{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+ul{
+    padding-left: 18px;
+}
+.wrapper{
+    max-width: 1200px;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar{
+    background: #0c6f6f;
+    color: #fff;
+    text-align: left;
+    padding: 60px 0px;
+    width: 35%;
+}
+.sidebar img{
+    width: 100%;
+}
+.sidebar-info{
+    margin: 0 40px;
+}
+.sidebar li{
+    color: #e85450;
+}
+.contacts{
+    margin-top: 60px;
+}
+.contacts a{
+    color: rgba(255,255,255,0.5);
+    margin-left: 10px;
+}
+.tech-skills-container{
+    margin: 50px 0;
+}
+.skills-text{
+    color: #bcbfc4;
+}
+.content{
+    padding: 110px 90px;
+}
+.projects{
+    margin: 65px 0 55px;
+}
+.projects h3{
+    margin-bottom: 10px;
+}
+.projects ol{
+    font-weight: 700;
+    margin-left: 19px;
+}
+.projects a{
+    color:#529efe;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.projects span{
+    color: #595959;
+    font-weight: 400;
+}
+.projects b{
+    color: #000;
+}
+.learning-experience{
+    margin-bottom: 50px;
+}
+.learning-experience li{
+    color: #595959;
+}
+.experience-place{
+    color: #e85450;
+}
+.experience-date{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: block;
+    line-height: 1;
+}
+.experience__item li{
+    color: #595959;
+}
+.experience__item{
+    margin-bottom: 25px;
+}
+.education h4{
+    color:  #e85450;
+}
+.divider{
+    color: #000;
+}
+.education p{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+/* media */
+@media screen and (max-width: 769px){
+    body{
+        padding: 0;
+    }
+    .content{
+        padding: 60px 30px;
+    }
+    .sidebar-info {
+        margin: 0 10px;
+    }
+    .projects {
+        margin: 35px 0 25px;
+    }
+}
+@media screen and (max-width: 600px){
+    .content{
+        padding: 20px 10px;
+    }
+    .sidebar{
+        padding: 10px 0;
+    }
+    .contacts {
+        margin-top: 20px;
+    }
+    
+    .contacts div{
+        font-size: 14px;
+    }
+    .contacts a{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    h1{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 500px){
+    .wrapper{
+       flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+        position: relative;
+    }
+    .sidebar img{
+        height: 200px;
+        width: 160px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}
+@media screen and (max-width: 410px){
+    .sidebar img{
+        display: none;
+    }
+}

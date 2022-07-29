@@ -44,7 +44,7 @@ ul{
     background: #0c6f6f;
     color: #fff;
     text-align: left;
-    padding: 60px 0px;
+    padding: 60px 0;
     width: 35%;
 }
 .sidebar img{
@@ -81,6 +81,11 @@ ul{
 .projects ol{
     font-weight: 700;
     margin-left: 19px;
+}
+.projects li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .projects a{
     color:#529efe;

@@ -213,7 +213,7 @@
         <div class="projects">
           <h3 class="projects__title">Pet - Projects</h3>
           <ul class="projects__list">
-            <li class="projects__list-item">
+            <li class="projects__list-item reveal">
               <div class="projects__item">
                 <a
                   class="projects__link"
@@ -228,7 +228,7 @@
                 <b>Swiper-slider</b>.
               </div>
             </li>
-            <li class="projects__list-item">
+            <li class="projects__list-item reveal">
               <div class="projects__item">
                 <a
                   class="projects__link"
@@ -244,7 +244,7 @@
               </div>
             </li>
 
-            <li class="projects__list-item">
+            <li class="projects__list-item reveal">
               <div class="projects__item">
                 <a
                   class="projects__link"
@@ -258,7 +258,7 @@
                 <b>CSS3</b>, <b>jQuery</b> and <b>Owl-carousel</b>.
               </div>
             </li>
-            <li class="projects__list-item">
+            <li class="projects__list-item reveal">
               <div class="projects__item">
                 <a
                   class="projects__link"
@@ -273,7 +273,7 @@
                 <b>jQuery</b>.
               </div>
             </li>
-            <li class="projects__list-item">
+            <li class="projects__list-item reveal">
               <div class="projects__item">
                 <a
                   class="projects__link"
@@ -294,14 +294,14 @@
         <div class="learning-experience">
           <h3>Learning Experience</h3>
           <ul>
-            <li class="list-item">Building pages from layouts</li>
-            <li class="list-item">Adapting pages for a mobile device</li>
-            <li class="list-item">Landing page creation</li>
-            <li class="list-item">
+            <li class="list-item reveal">Building pages from layouts</li>
+            <li class="list-item reveal">Adapting pages for a mobile device</li>
+            <li class="list-item reveal">Landing page creation</li>
+            <li class="list-item reveal">
               Using jQuery, bootstrap 4 and other libraries
             </li>
-            <li class="list-item">Using Scss, BEM</li>
-            <li class="list-item">Basics of JS & React</li>
+            <li class="list-item reveal">Using Scss, BEM</li>
+            <li class="list-item reveal">Basics of JS & React</li>
           </ul>
         </div>
         <div class="experience">
@@ -314,15 +314,15 @@
             </h4>
             <span class="experience-date">January 2022 - November 2022</span>
             <ul>
-              <li class="list-item">Markup websites</li>
-              <li class="list-item">Simple React code</li>
-              <li class="list-item">Using Styled Components</li>
-              <li class="list-item">Сommunication with customers</li>
-              <li class="list-item">Work in team</li>
-              <li class="list-item">Task setting and execution control</li>
-              <li class="list-item">Code review</li>
-              <li class="list-item">Code refactoring</li>
-              <li class="list-item">Bug testing</li>
+              <li class="list-item reveal">Markup websites</li>
+              <li class="list-item reveal">Simple React code</li>
+              <li class="list-item reveal">Using Styled Components</li>
+              <li class="list-item reveal">Сommunication with customers</li>
+              <li class="list-item reveal">Work in team</li>
+              <li class="list-item reveal">Task setting and execution control</li>
+              <li class="list-item reveal">Code review</li>
+              <li class="list-item reveal">Code refactoring</li>
+              <li class="list-item reveal">Bug testing</li>
             </ul>
           </div>
           <div class="experience__item">
@@ -332,14 +332,14 @@
             </h4>
             <span class="experience-date">September 2014 - February 2022</span>
             <ul>
-              <li class="list-item">Search, attraction of clients</li>
-              <li class="list-item">Buying cars</li>
-              <li class="list-item">Consulting clients</li>
-              <li class="list-item">Сoncluding deals</li>
+              <li class="list-item reveal">Search, attraction of clients</li>
+              <li class="list-item reveal">Buying cars</li>
+              <li class="list-item reveal">Consulting clients</li>
+              <li class="list-item reveal">Сoncluding deals</li>
             </ul>
           </div>
         </div>
-        <div class="education">
+        <div class="education reveal">
           <h3>Education</h3>
           <div class="education__item">
             <h4 class="education__item__title">Source IT</h4>
@@ -372,7 +372,7 @@
         for (let i = 0; i < reveals.length; i++) {
           const windowHeight = window.innerHeight;
           const elementTop = reveals[i].getBoundingClientRect().top;
-          const elementVisible = 50;
+          const elementVisible = 20;
 
           if (elementTop < windowHeight - elementVisible) {
             reveals[i].classList.add("animate");

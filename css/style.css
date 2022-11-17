@@ -269,6 +269,7 @@ h4 {
   position: relative;
   text-decoration: underline;
   transition: all 0.3s ease-in;
+  text-transform: capitalize;
 }
 .projects__link:hover {
   color: #0c6f6f;

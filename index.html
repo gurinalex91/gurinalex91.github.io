@@ -4,18 +4,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV FrontEnd Developer - Hurin Oleksandr</title>
+  <meta
+    name="description"
+    content="CV portfolio of Hurin Oleksandr, Frontend / Markup Developer with experience in HTML, CSS, SCSS, JavaScript, React, and responsive layouts."
+  />
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Hurin Oleksandr - Frontend / Markup Developer CV" />
+  <meta
+    property="og:description"
+    content="CV portfolio of Hurin Oleksandr, Frontend / Markup Developer."
+  />
+  <meta property="og:url" content="https://gurinalex91.github.io/" />
+  <meta property="og:image" content="https://gurinalex91.github.io/images/cv_photo.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#0c6f6f" />
+  <link rel="canonical" href="https://gurinalex91.github.io/" />
+  <link
+    rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230c6f6f'/%3E%3Ctext x='32' y='41' font-size='28' text-anchor='middle' fill='white' font-family='Arial,sans-serif'%3EHO%3C/text%3E%3C/svg%3E"
+  />
+  <title>Hurin Oleksandr - Frontend / Markup Developer CV</title>
+  <script>
+    document.documentElement.classList.add("js");
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
   <div class="wrapper">
-    <!-- sidebar -->
-    <aside class="sidebar">
-      <img class="sidebar__image" src="images/cv_photo.jpg" alt="My Photo" />
+    <aside class="sidebar" aria-label="Profile details">
+      <img
+        class="sidebar__image"
+        src="images/cv_photo.jpg"
+        width="920"
+        height="1200"
+        alt="Hurin Oleksandr"
+        decoding="async"
+        fetchpriority="high"
+      />
       <div class="sidebar__info">
-        <div class="contacts">
-          <h3 class="sidebar__title">Contacts</h3>
+        <section class="contacts" aria-labelledby="contacts-title">
+          <h2 class="sidebar__title" id="contacts-title">Contacts</h2>
           <div>
             Phone:
             <a class="sidebar__link" href="tel:380999881152">+38 099 988 11 52</a>
@@ -26,17 +58,18 @@
           </div>
           <div>
             GitHub:
-            <a class="sidebar__link" href="https://github.com/gurinalex91" target="_blank">github.com/gurinalex91</a>
+            <a class="sidebar__link" href="https://github.com/gurinalex91" target="_blank"
+              rel="noopener noreferrer">github.com/gurinalex91</a>
           </div>
           <div>
             LinkedIn:
             <a class="sidebar__link" href="https://www.linkedin.com/in/gurinalex/"
-              target="_blank">linkedin.com/in/gurinalex/</a>
+              target="_blank" rel="noopener noreferrer">linkedin.com/in/gurinalex/</a>
           </div>
-        </div>
+        </section>
 
-        <div class="tech-skills-container">
-          <h3 class="sidebar__title">Tech Skills</h3>
+        <section class="tech-skills-container" aria-labelledby="tech-skills-title">
+          <h2 class="sidebar__title" id="tech-skills-title">Tech Skills</h2>
           <ul>
             <li class="sidebar__list-item reveal">
               <span class="skills-text">HTML5</span>
@@ -102,15 +135,15 @@
               <span class="skills-text">Asana</span>
             </li>
           </ul>
-        </div>
-        <div class="soft-skills-container">
-          <h3 class="sidebar__title">Soft Skills</h3>
+        </section>
+        <section class="soft-skills-container" aria-labelledby="soft-skills-title">
+          <h2 class="sidebar__title" id="soft-skills-title">Soft Skills</h2>
           <ul>
             <li class="sidebar__list-item reveal">
               <span class="skills-text">Perfectionism</span>
             </li>
             <li class="sidebar__list-item reveal">
-              <span class="skills-text">Сoncentration</span>
+              <span class="skills-text">Concentration</span>
             </li>
             <li class="sidebar__list-item reveal">
               <span class="skills-text">Responsibility</span>
@@ -125,9 +158,9 @@
               <span class="skills-text">Honesty</span>
             </li>
           </ul>
-        </div>
-        <div class="lang">
-          <h3 class="sidebar__title">Languages</h3>
+        </section>
+        <section class="lang" aria-labelledby="languages-title">
+          <h2 class="sidebar__title" id="languages-title">Languages</h2>
           <ul>
             <li class="sidebar__list-item reveal">
               <span class="skills-text"><span>English:</span>&nbsp;Pre-Intermediate</span>
@@ -139,9 +172,9 @@
               <span class="skills-text"><span>Russian:</span>&nbsp;Native</span>
             </li>
           </ul>
-        </div>
-        <div class="hobbies">
-          <h3 class="sidebar__title">Hobbies</h3>
+        </section>
+        <section class="hobbies" aria-labelledby="hobbies-title">
+          <h2 class="sidebar__title" id="hobbies-title">Hobbies</h2>
           <ul>
             <li class="sidebar__list-item reveal">
               <span class="skills-text">Programming</span>
@@ -156,23 +189,22 @@
               <span class="skills-text">Games</span>
             </li>
           </ul>
-        </div>
+        </section>
       </div>
     </aside>
 
-    <!-- main -->
-    <div class="content">
+    <main class="content">
       <div class="main-info">
-        <h2>Junior Front-End Developer</h2>
+        <p class="main-info__position">Frontend / Markup Developer</p>
         <h1>Hurin Oleksandr</h1>
       </div>
-      <!-- Commercial - Projects -->
-      <div class="projects">
-        <h3 class="projects__title">Commercial - Projects</h3>
+      <section class="projects" aria-labelledby="commercial-projects-title">
+        <h2 class="projects__title" id="commercial-projects-title">Commercial - Projects</h2>
         <ul class="projects__list">
           <li class="projects__list-item">
             <div class="projects__item">
-              <a class="projects__link" href="https://www.treatfield.com/" target="_blank">Treatfield</a>
+              <a class="projects__link" href="https://www.treatfield.com/" target="_blank"
+                rel="noopener noreferrer">Treatfield</a>
             </div>
             <div class="projects__description">
               This is a psychotherapy platform. It has old code written in
@@ -187,7 +219,8 @@
           </li>
           <li class="projects__list-item">
             <div class="projects__item">
-              <a class="projects__link" href="https://undas.io" target="_blank">Undas</a>
+              <a class="projects__link" href="https://undas.io" target="_blank"
+                rel="noopener noreferrer">Undas</a>
             </div>
             <div class="projects__description">
               This is an NFT Marketplace that utilizes blockchain technology.
@@ -203,27 +236,29 @@
           </li>
           <li class="projects__list-item">
             <div class="projects__item">
-              <a class="projects__link" href="https://crimecash.biz" target="_blank">CrimeCash</a>
+              <a class="projects__link" href="https://crimecash.biz" target="_blank"
+                rel="noopener noreferrer">CrimeCash</a>
             </div>
             <div class="projects__description">
               It is a game where you can buy weapons and loot other players.
               It uses blockchain and NFTs. Project written in <b>.NET</b>,
               <b>HTML5</b>, <b>CSS3</b> and utilizes <b>Bootstrap</b> by the
-              <a class="projects__link" href="https://redduck.io/" target="_blank">RedDuck</a>
+              <a class="projects__link" href="https://redduck.io/" target="_blank"
+                rel="noopener noreferrer">RedDuck</a>
               team. I worked as a markup developer and created some of the
               game pages as well as the landing page, ensuring they were
               adaptive.
             </div>
           </li>
         </ul>
-      </div>
-      <!-- Pet - Projects -->
-      <div class="projects">
-        <h3 class="projects__title">Pet - Projects</h3>
+      </section>
+      <section class="projects" aria-labelledby="pet-projects-title">
+        <h2 class="projects__title" id="pet-projects-title">Pet - Projects</h2>
         <ul class="projects__list">
           <li class="projects__list-item reveal">
             <div class="projects__item">
-              <a class="projects__link" href="https://crypto-trading-gurinalex91.vercel.app/" target="_blank">crypto
+              <a class="projects__link" href="https://crypto-trading-gurinalex91.vercel.app/" target="_blank"
+                rel="noopener noreferrer">crypto
                 trading</a>
             </div>
             <div class="projects__description">
@@ -233,7 +268,8 @@
           </li>
           <li class="projects__list-item reveal">
             <div class="projects__item">
-              <a class="projects__link" href="https://gurinalex91.github.io/Aiman/" target="_blank">Ai.man</a>
+              <a class="projects__link" href="https://gurinalex91.github.io/Aiman/" target="_blank"
+                rel="noopener noreferrer">Ai.man</a>
             </div>
             <div class="projects__description">
               This is my study work for understanding Tailwind CSS. Used
@@ -243,18 +279,20 @@
           </li>
           <li class="projects__list-item reveal">
             <div class="projects__item">
-              <a class="projects__link" href="https://gurinalex91.github.io/PromoCRM/" target="_blank">Promo CRM</a>
+              <a class="projects__link" href="https://gurinalex91.github.io/PromoCRM/" target="_blank"
+                rel="noopener noreferrer">Promo CRM</a>
             </div>
             <div class="projects__description">
               This is my work for more practice. Used <b>BEM</b>,
-              <b>Parralax</b>, <b>jQuery</b>, <b>HTML5</b>, <b>CSS3</b> and
+              <b>Parallax</b>, <b>jQuery</b>, <b>HTML5</b>, <b>CSS3</b> and
               <b>Slick-slider</b>.
             </div>
           </li>
 
           <li class="projects__list-item reveal">
             <div class="projects__item">
-              <a class="projects__link" href="https://gurinalex91.github.io/Luxestate/" target="_blank">Luxestate</a>
+              <a class="projects__link" href="https://gurinalex91.github.io/Luxestate/" target="_blank"
+                rel="noopener noreferrer">Luxestate</a>
             </div>
             <div class="projects__description">
               This is my work for practice in markup. Used <b>HTML5</b>,
@@ -263,7 +301,8 @@
           </li>
           <li class="projects__list-item reveal">
             <div class="projects__item">
-              <a class="projects__link" href="https://gurinalex91.github.io/Author/" target="_blank">Author</a>
+              <a class="projects__link" href="https://gurinalex91.github.io/Author/" target="_blank"
+                rel="noopener noreferrer">Author</a>
             </div>
             <div class="projects__description">
               This is my study work for understanding <b>CSS Grid</b>, <b>BEM</b> and <b>SCSS</b>.
@@ -273,7 +312,8 @@
           </li>
           <li class="projects__list-item reveal">
             <div class="projects__item">
-              <a class="projects__link" href="https://gurinalex91.github.io/Leader_NRG_Ukraine/" target="_blank">Leader
+              <a class="projects__link" href="https://gurinalex91.github.io/Leader_NRG_Ukraine/" target="_blank"
+                rel="noopener noreferrer">Leader
                 NRG Ukraine</a>
             </div>
             <div class="projects__description">
@@ -283,14 +323,14 @@
             </div>
           </li>
         </ul>
-      </div>
+      </section>
 
-      <!-- experience -->
-      <div class="experience">
-        <h3>Work Experience</h3>
+      <section class="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Work Experience</h2>
         <div class="experience__item">
           <h4>
-            HTML/Markup Developer <a class="experience-place" href="https://www.insulalabs.co/" target="_blank">
+            HTML/Markup Developer <a class="experience-place" href="https://www.insulalabs.co/" target="_blank"
+              rel="noopener noreferrer">
             Insulalabs</a>
           </h4>
           <span class="experience-date">January 2024 - Now (Outstaff)</span>
@@ -305,7 +345,8 @@
 
         <div class="experience__item">
           <h4>
-            HTML Coder <a class="experience-place" href="https://aff1.com/" target="_blank">
+            HTML Coder <a class="experience-place" href="https://aff1.com/" target="_blank"
+              rel="noopener noreferrer">
             Aff1</a>
           </h4>
           <span class="experience-date">April 2023 - January 2024</span>
@@ -321,7 +362,8 @@
 
         <div class="experience__item">
           <h4>
-            Junior Front-End developer <a class="experience-place" href="https://treatfield.com" target="_blank">
+            Junior Front-End developer <a class="experience-place" href="https://treatfield.com" target="_blank"
+              rel="noopener noreferrer">
             Treatfield</a>
           </h4>
           <span class="experience-date">December 2022 - now (Part-time)</span>
@@ -340,7 +382,8 @@
 
         <div class="experience__item">
           <h4>
-            Junior Front-End developer <a class="experience-place" href="https://redduck.io" target="_blank">
+            Junior Front-End developer <a class="experience-place" href="https://redduck.io" target="_blank"
+              rel="noopener noreferrer">
             RedDuck</a>
           </h4>
           <span class="experience-date">January 2022 - November 2022</span>
@@ -348,7 +391,7 @@
             <li class="list-item reveal">Markup websites</li>
             <li class="list-item reveal">Simple React code</li>
             <li class="list-item reveal">Using Styled Components</li>
-            <li class="list-item reveal">Сommunication with customers</li>
+            <li class="list-item reveal">Communication with customers</li>
             <li class="list-item reveal">Work in team</li>
             <li class="list-item reveal">
               Task setting and execution control
@@ -362,21 +405,21 @@
         <div class="experience__item">
           <h4>
             Co-owner, sales manager
-            <a class="experience-place" href="https://carpart.com.ua" target="_blank">Junkyard "CarPart"</a>
+            <a class="experience-place" href="https://carpart.com.ua" target="_blank"
+              rel="noopener noreferrer">Junkyard "CarPart"</a>
           </h4>
           <span class="experience-date">September 2014 - February 2022</span>
           <ul>
             <li class="list-item reveal">Search, attraction of clients</li>
             <li class="list-item reveal">Buying cars</li>
             <li class="list-item reveal">Consulting clients</li>
-            <li class="list-item reveal">Сoncluding deals</li>
+            <li class="list-item reveal">Concluding deals</li>
           </ul>
         </div>
-      </div>
+      </section>
 
-      <!-- learning-experience -->
-      <div class="learning-experience">
-        <h3>Learning Experience</h3>
+      <section class="learning-experience" aria-labelledby="learning-title">
+        <h2 id="learning-title">Learning Experience</h2>
         <ul>
           <li class="list-item reveal">Building pages from layouts</li>
           <li class="list-item reveal">Adapting pages for a mobile device</li>
@@ -387,19 +430,18 @@
           <li class="list-item reveal">Using Scss, BEM</li>
           <li class="list-item reveal">Basics of JS & React</li>
         </ul>
-      </div>
+      </section>
 
-      <!-- education -->
-      <div class="education reveal">
-        <h3>Education</h3>
+      <section class="education reveal" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
         <div class="education__item">
           <h4 class="education__item__title">Source IT</h4>
-          <p class="education__item__desription">JavaScript(Front end)</p>
+          <p class="education__item__description">JavaScript(Front end)</p>
           <span class="experience-date">April 2021 - July 2021</span>
         </div>
         <div class="education__item">
           <h4 class="education__item__title">Ukrainian IT School</h4>
-          <p class="education__item__desription">
+          <p class="education__item__description">
             Front End(Markup Development)
           </p>
           <span class="experience-date">June 2020 - September 2020</span>
@@ -408,16 +450,15 @@
           <h4 class="education__item__title">
             National Technical University «Kharkiv Polytechnic Institute»
           </h4>
-          <p class="education__item__desription">
+          <p class="education__item__description">
             Telecommunication systems and networks
           </p>
           <span class="experience-date">September 2008 - March 2014</span>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   </div>
 
-  <!-- animation -->
   <script>
     function reveal() {
       const reveals = document.querySelectorAll(".reveal");
@@ -433,7 +474,8 @@
       }
     }
 
-    window.addEventListener("scroll", reveal);
+    window.addEventListener("DOMContentLoaded", reveal);
+    window.addEventListener("scroll", reveal, { passive: true });
   </script>
 </body>
 
